@@ -13,5 +13,5 @@ urlpatterns = [
     path('work-profile/', TemplateView.as_view(template_name='work-profile.html'), name='work-profile'),
     path('our-careers/', TemplateView.as_view(template_name='our-careers.html'), name='our-careers'),
     path('get-in-touch-2/', TemplateView.as_view(template_name='get-in-touch-2.html'), name='get-in-touch-2'),
-    path('base/', TemplateView.as_view(template_name='base.html'), name='base'),
+    # path('base/', TemplateView.as_view(template_name='base.html'), name='base'),
 ]
