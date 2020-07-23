@@ -16,7 +16,7 @@ name=description content="Kingsmen Agency is a leading &amp; trusted digital mar
 name=robots content="index, follow"><meta
 name=googlebot content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"><meta
 name=bingbot content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"><link
-rel=canonical href=https://www.kingsmenagency.com/ ><meta
+rel=canonical href="{% url 'home' %}"><meta
 property=og:locale content=en_US><meta
 property=og:locale:alternate content=ar_AR><meta
 property=og:type content=website><meta
@@ -46,7 +46,7 @@ rel=https://api.w.org/ href=https://www.kingsmenagency.com/wp-json/ ><link
 rel=EditURI type=application/rsd+xml title=RSD href=https://www.kingsmenagency.com/xmlrpc.php?rsd><link
 rel=wlwmanifest type=application/wlwmanifest+xml href=https://www.kingsmenagency.com/wp-includes/wlwmanifest.xml><meta
 name=generator content="WordPress 5.4.2"><link
-rel=shortlink href=https://www.kingsmenagency.com/ ><link
+rel=shortlink href="{% url 'home' %}"><link
 rel=alternate type=application/json+oembed href="https://www.kingsmenagency.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.kingsmenagency.com%2F"><link
 rel=alternate type=text/xml+oembed href="https://www.kingsmenagency.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.kingsmenagency.com%2F&#038;format=xml">
 <style>.wp-google-powered{display:none!important}.qodef-btn{display:none !important}</style>
@@ -55,7 +55,7 @@ gtag('js',new Date());gtag('config','UA-165410004-1');</script> <meta
 name=google-site-verification content=haQghWxX0Qc_mBxQgw2EsAQm9T-Olj-kR-1gV2UXUR8> <script>var Tawk_API=Tawk_API||{},Tawk_LoadStart=new Date();(function(){var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];s1.async=true;s1.src='https://embed.tawk.to/5e97025b69e9320caac3cf22/default';s1.charset='UTF-8';s1.setAttribute('crossorigin','*');s0.parentNode.insertBefore(s1,s0);})();</script>  <script id=mcjs>!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/cd75d58d16e0c0437f2b2f993/3509042c960fa1a108bd422f9.js");</script>  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-NZN3BQS');</script>  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-799023890"></script> <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}
 gtag('js',new Date());gtag('config','AW-799023890');</script><style media=screen>.simple-banner{background:#212120}</style><style media=screen>.simple-banner .simple-banner-text{color:#a5875d}</style><style media=screen>.simple-banner .simple-banner-text
 a{color:#a5875d}</style><link
-rel=alternate href=https://www.kingsmenagency.com/ hreflang=en><link
+rel=alternate href="{% url 'home' %}"hreflang=en><link
 rel=alternate href=https://www.kingsmenagency.com/ar/ hreflang=ar><meta
 name=generator content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress."><meta
 name=generator content="Powered by Slider Revolution 6.1.7 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface."><link
@@ -114,7 +114,7 @@ class=qodef-position-left><div
 class=qodef-position-left-inner><div
 class=qodef-logo-wrapper>
 <a
-itemprop=url href=https://www.kingsmenagency.com/ style="height: 28px;">
+itemprop=url href="{% url 'home' %}"style="height: 28px;">
 <img
 itemprop=image class="qodef-normal-logo lazy" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20268%2056'%3E%3C/svg%3E" data-src=https://kingsmenagency.com/wp-content/uploads/2020/03/Kingsmen-original-logo-original.png width=268 height=56  alt=logo>
 <img
@@ -125,35 +125,35 @@ class=qodef-position-right-inner><nav
 class="qodef-main-menu qodef-drop-down qodef-default-nav"><ul
 id=menu-main-menu class=clearfix><li
 id=nav-menu-item-2311 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-113 current_page_item qodef-active-item narrow"><a
-href=https://www.kingsmenagency.com/ class=" current "><span
+href="{% url 'home' %}"class=" current "><span
 class=item_outer><span
 class=item_text>HOME</span></span></a></li><li
 id=nav-menu-item-2315 class="menu-item menu-item-type-post_type menu-item-object-page  narrow"><a
-href=https://www.kingsmenagency.com/about-us/ class><span
+href="{% url 'about' %}" class><span
 class=item_outer><span
 class=item_text>ABOUT US</span></span></a></li><li
 id=nav-menu-item-2342 class="menu-item menu-item-type-post_type menu-item-object-page  narrow"><a
-href=https://www.kingsmenagency.com/services/ class><span
+href="{% url 'services' %}" class><span
 class=item_outer><span
 class=item_text>SERVICES</span></span></a></li><li
 id=nav-menu-item-2818 class="menu-item menu-item-type-custom menu-item-object-custom  narrow"><a
-href=https://kingsmenagency.com/packages/ class><span
+href="{% url 'packages' %}" class><span
 class=item_outer><span
 class=item_text>PACKAGES</span></span></a></li><li
 id=nav-menu-item-2282 class="menu-item menu-item-type-post_type menu-item-object-page  narrow"><a
-href=https://www.kingsmenagency.com/blog/ class><span
+href="{% url 'blog' %}" class><span
 class=item_outer><span
 class=item_text>BLOG</span></span></a></li><li
 id=nav-menu-item-4033 class="menu-item menu-item-type-custom menu-item-object-custom  narrow"><a
-href=https://kingsmenagency.com/work-profile/ class><span
+href="{% url 'work-profile' %}" class><span
 class=item_outer><span
 class=item_text>OUR WORK</span></span></a></li><li
 id=nav-menu-item-3761 class="menu-item menu-item-type-post_type menu-item-object-page  narrow"><a
-href=https://www.kingsmenagency.com/our-careers/ class><span
+href="{% url 'our-careers' %}" class><span
 class=item_outer><span
 class=item_text>CAREERS</span></span></a></li><li
 id=nav-menu-item-3005 class="menu-item menu-item-type-custom menu-item-object-custom  narrow"><a
-href=https://kingsmenagency.com/get-in-touch-2/ class><span
+href="{% url 'get-in-touch-2' %}" class><span
 class=item_outer><span
 class=item_text>GET IN TOUCH</span></span></a></li></ul></nav>
 <a
@@ -192,7 +192,7 @@ class=qodef-position-left><div
 class=qodef-position-left-inner><div
 class=qodef-logo-wrapper>
 <a
-itemprop=url href=https://www.kingsmenagency.com/ style="height: 28px;">
+itemprop=url href="{% url 'home' %}"style="height: 28px;">
 <img
 itemprop=image class="qodef-normal-logo lazy" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20268%2056'%3E%3C/svg%3E" data-src=https://kingsmenagency.com/wp-content/uploads/2020/03/Kingsmen-original-logo-original.png width=268 height=56  alt=logo>
 <img
@@ -203,42 +203,42 @@ class=qodef-position-right-inner><nav
 class="qodef-main-menu qodef-drop-down qodef-sticky-nav"><ul
 id=menu-main-menu-1 class=clearfix><li
 id=sticky-nav-menu-item-2311 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-113 current_page_item qodef-active-item narrow"><a
-href=https://www.kingsmenagency.com/ class=" current "><span
+href="{% url 'home' %}"class=" current "><span
 class=item_outer><span
 class=item_text>HOME</span><span
 class=plus></span></span></a></li><li
 id=sticky-nav-menu-item-2315 class="menu-item menu-item-type-post_type menu-item-object-page  narrow"><a
-href=https://www.kingsmenagency.com/about-us/ class><span
+href="{% url 'about' %}" class><span
 class=item_outer><span
 class=item_text>ABOUT US</span><span
 class=plus></span></span></a></li><li
 id=sticky-nav-menu-item-2342 class="menu-item menu-item-type-post_type menu-item-object-page  narrow"><a
-href=https://www.kingsmenagency.com/services/ class><span
+href="{% url 'services' %}" class><span
 class=item_outer><span
 class=item_text>SERVICES</span><span
 class=plus></span></span></a></li><li
 id=sticky-nav-menu-item-2818 class="menu-item menu-item-type-custom menu-item-object-custom  narrow"><a
-href=https://kingsmenagency.com/packages/ class><span
+href="{% url 'packages' %}" class><span
 class=item_outer><span
 class=item_text>PACKAGES</span><span
 class=plus></span></span></a></li><li
 id=sticky-nav-menu-item-2282 class="menu-item menu-item-type-post_type menu-item-object-page  narrow"><a
-href=https://www.kingsmenagency.com/blog/ class><span
+href="{% url 'blog' %}" class><span
 class=item_outer><span
 class=item_text>BLOG</span><span
 class=plus></span></span></a></li><li
 id=sticky-nav-menu-item-4033 class="menu-item menu-item-type-custom menu-item-object-custom  narrow"><a
-href=https://kingsmenagency.com/work-profile/ class><span
+href="{% url 'work-profile' %}" class><span
 class=item_outer><span
 class=item_text>OUR WORK</span><span
 class=plus></span></span></a></li><li
 id=sticky-nav-menu-item-3761 class="menu-item menu-item-type-post_type menu-item-object-page  narrow"><a
-href=https://www.kingsmenagency.com/our-careers/ class><span
+href="{% url 'our-careers' %}" class><span
 class=item_outer><span
 class=item_text>CAREERS</span><span
 class=plus></span></span></a></li><li
 id=sticky-nav-menu-item-3005 class="menu-item menu-item-type-custom menu-item-object-custom  narrow"><a
-href=https://kingsmenagency.com/get-in-touch-2/ class><span
+href="{% url 'get-in-touch-2' %}" class><span
 class=item_outer><span
 class=item_text>GET IN TOUCH</span><span
 class=plus></span></span></a></li></ul></nav>
@@ -280,7 +280,7 @@ class=qodef-position-left><div
 class=qodef-position-left-inner><div
 class=qodef-mobile-logo-wrapper>
 <a
-itemprop=url href=https://www.kingsmenagency.com/ style="height: 28px">
+itemprop=url href="{% url 'home' %}"style="height: 28px">
 <img
 class=lazy itemprop=image src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20268%2056'%3E%3C/svg%3E" data-src=https://kingsmenagency.com/wp-content/uploads/2020/03/Kingsmen-original-logo-original.png width=268 height=56  alt="Mobile Logo">
 </a></div></div></div><div
@@ -305,21 +305,21 @@ class=qodef-mobile-nav role=navigation aria-label="Mobile Menu"><div
 class=qodef-grid><ul
 id=menu-main-menu-2 class><li
 id=mobile-menu-item-2311 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-113 current_page_item qodef-active-item"><a
-href=https://www.kingsmenagency.com/ class=" current "><span>HOME</span></a></li><li
+href="{% url 'home' %}"class=" current "><span>HOME</span></a></li><li
 id=mobile-menu-item-2315 class="menu-item menu-item-type-post_type menu-item-object-page "><a
-href=https://www.kingsmenagency.com/about-us/ class><span>ABOUT US</span></a></li><li
+href="{% url 'about' %}" class><span>ABOUT US</span></a></li><li
 id=mobile-menu-item-2342 class="menu-item menu-item-type-post_type menu-item-object-page "><a
-href=https://www.kingsmenagency.com/services/ class><span>SERVICES</span></a></li><li
+href="{% url 'services' %}" class><span>SERVICES</span></a></li><li
 id=mobile-menu-item-2818 class="menu-item menu-item-type-custom menu-item-object-custom "><a
-href=https://kingsmenagency.com/packages/ class><span>PACKAGES</span></a></li><li
+href="{% url 'packages' %}" class><span>PACKAGES</span></a></li><li
 id=mobile-menu-item-2282 class="menu-item menu-item-type-post_type menu-item-object-page "><a
-href=https://www.kingsmenagency.com/blog/ class><span>BLOG</span></a></li><li
+href="{% url 'blog' %}" class><span>BLOG</span></a></li><li
 id=mobile-menu-item-4033 class="menu-item menu-item-type-custom menu-item-object-custom "><a
-href=https://kingsmenagency.com/work-profile/ class><span>OUR WORK</span></a></li><li
+href="{% url 'work-profile' %}" class><span>OUR WORK</span></a></li><li
 id=mobile-menu-item-3761 class="menu-item menu-item-type-post_type menu-item-object-page "><a
-href=https://www.kingsmenagency.com/our-careers/ class><span>CAREERS</span></a></li><li
+href="{% url 'our-careers' %}" class><span>CAREERS</span></a></li><li
 id=mobile-menu-item-3005 class="menu-item menu-item-type-custom menu-item-object-custom "><a
-href=https://kingsmenagency.com/get-in-touch-2/ class><span>GET IN TOUCH</span></a></li></ul></div></nav></div></header>
+href="{% url 'get-in-touch-2' %}" class><span>GET IN TOUCH</span></a></li></ul></div></nav></div></header>
 {% block content %}
 {% endblock %}
 <footer
