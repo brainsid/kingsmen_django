@@ -2,6 +2,8 @@
 from django.contrib import admin
 from django.urls import path
 from django.views.generic import TemplateView
+from django.conf.urls.static import static
+from django.conf import settings
 
 urlpatterns = [
     # path('admin/', admin.site.urls),
@@ -14,4 +16,4 @@ urlpatterns = [
     path('our-careers/', TemplateView.as_view(template_name='our-careers.html'), name='our-careers'),
     path('get-in-touch-2/', TemplateView.as_view(template_name='get-in-touch-2.html'), name='get-in-touch-2'),
     # path('base/', TemplateView.as_view(template_name='base.html'), name='base'),
-]
+] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
